@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Відео шпалери</string>
+    <string name="wallpaper_description">Відео на робочому столі замість картинки</string>
+    <string name="add_videos">Додати відео</string>
+    <string name="set_wallpaper">Встановити живі шпалери</string>
+    <string name="sound_off">Звук вимкнено. Натисни, щоб увімкнути</string>
+    <string name="sound_on">Звук увімкнено. Натисни, щоб вимкнути</string>
+    <string name="empty_hint">Відео ще немає. Натисни Додати відео і вибери один або кілька файлів.</string>
+    <string name="delete">Видалити</string>
+    <string name="delete_title">Видалити відео зі шпалер?</string>
+    <string name="cancel">Скасувати</string>
+    <string name="added_fmt">Додано відео: %1$d</string>
+    <string name="import_failed">Не вдалося скопіювати відео</string>
+    <string name="add_first">Спочатку додай хоча б одне відео</string>
+    <string name="no_picker">На цьому телефоні не вдалося відкрити вибір шпалер</string>
+</resources>
