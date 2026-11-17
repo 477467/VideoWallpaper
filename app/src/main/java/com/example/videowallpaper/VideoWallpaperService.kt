@@ -87,7 +87,9 @@ class VideoWallpaperService : WallpaperService() {
                     .build(),
                 false
             )
-            p.videoScalingMode = C.VIDEO_SCALING_MODE_SCALE_TO_FIT_WITH_CROPPING
+            // Fit the complete video on the screen. Letterboxing is preferable to
+            // cutting off people or other important parts of the frame.
+            p.videoScalingMode = C.VIDEO_SCALING_MODE_SCALE_TO_FIT
             p.repeatMode = if (files.size == 1) Player.REPEAT_MODE_ONE else Player.REPEAT_MODE_ALL
             applyMute(p)
 
